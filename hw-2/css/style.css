@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.fig {
+	display: block;
+	font-style: inherit;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: grey;
+}
+figcaption {
+	padding-top: 15px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid grey;
+
+}
+img {
+	width: 165px;
+	height: 256px;
+	border: solid;	color: #808080;
+	margin-left: 70px;
+}
+.wrapper {
+	text-align: center;
+	margin-left: 390px;
+	margin-right: 300px;
+}
+.motivation {
+	display: block;
+	border-bottom: 2px solid grey;
+	color: grey;
+}
+h4 {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	color: black;
+}
+.contact {
+	padding-top: 15px;
+	padding-bottom: 20px;
+	color: grey;
+}
+.profile{
+	border-bottom: 2px solid grey;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	color: grey;
+}
+.feedback{
+	padding-top: 15px;
+	padding-bottom: 20px;
+	color: grey;
+}
+

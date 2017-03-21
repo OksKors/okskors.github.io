@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.logo {
+	font-size: 40px;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 20px; 
+}
+
+.menu-item_hor {
+	list-style-type: none;
+	color: white;
+	align-content: flex-start;
+  	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 70px;
+}
+
+* {
+	font-family: "OpenSans";
+}
+
+.menu_hor {
+	display: flex;
+	list-style-type: none;
+  	color: white;
+  	background-color: #4f4f4f;
+	justify-content: flex-start;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.menu-item_hor:hover {
+	background-color: #343434;
+}
+
+.text-color {
+	color: white;
+}
+
+.menu-vert {
+	display: flex;
+	flex-direction: column;
+	flex-flow: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	background-color: white;
+	margin-top: 40px;
+	margin-left: 5px;
+}
+
+.menu-item-vert {
+	margin-left: 50px;
+	margin-right: 950px;
+	background-color: #ffffff;
+	border-top: 1px solid #c8C8C8;
+	border-left: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
+	list-style-type: none;
+	padding: 5px;
+	width: 200px;
+}
+
+.menu-item-vert-bottom {
+	margin-left: 50px;
+	margin-right: 950px;
+	background-color: white;
+	border: 1px solid #c8c8c8;
+	list-style-type: none;
+	padding: 5px;
+	width: 200px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu-item-vert:hover {
+	background-color: #f9f9f9;
+}
+
+.Lorem {
+	margin-left: 550px;
+	margin-right: 200px;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+.menu_div {
+	width: 500px;
+}
+
+.image {
+	float: right;
+	margin-right: 350px; 
+	margin-top: -170px;
+
+}
+
+.menu-item_footer {
+  	list-style-type: none;
+	color: black;
+	align-content: flex-start;
+  	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 70px;
+}
+
+.menu-footer  {
+	display: flex;
+	list-style-type: none;
+  	color: white;
+  	background-color: #e1e1e1;
+	justify-content: flex-start;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 10px;	
+}
+
+.menu-item_footer:after {
+	display: block;
+	content: "";
+	height: 1px;
+	width: 0%;
+	transition: width .3s ease-in-out;
+	background-color: black;
+}
+	
+.menu-item_footer:hover:after,
+.menu-item_footer:focus:after  {
+	width: 100%;
+}
+
+.menu-item_footer-all {
+	margin-left: 450px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
