@@ -21,7 +21,7 @@ body {
     margin-bottom: 20px;
 }
 
-.img_logo img {
+.img_logo a {
 	width: 140px;
 	height: 85px;
 }
@@ -46,7 +46,7 @@ nav li {
 
 nav a {
 	display: block;
-    padding: 10px;
+    padding: 12px;
     font: 14px 'Open Sans', Serif, sans-serif;
     text-decoration: none;
     color: white;
