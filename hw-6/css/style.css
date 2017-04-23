@@ -421,11 +421,92 @@ input[type="checkbox"] {
 }
 /* end product filter right */
 
+/* brand logo */
 
-.brands_logo { 
-	margin: 30px 0px 0px  110px;
-	
+.brands_logo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
 }
+
+
+.brands_logo ul {
+    margin: 0;
+    padding: 0;
+    width: 685px;
+    height: 52px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.brands_logo li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.logo1 {
+    background-image: url("../img/toyo_logo.png");
+    width: 88px;
+    height: 26px;
+    display: block;
+}
+
+.logo2 {
+    background-image: url("../img/bridgestone_logo.png");
+    width: 100px;
+    height: 20px;
+    display: block;
+}
+
+
+.logo3 {
+    background-image: url("../img/Continental_logo.png");
+    width: 87px;
+    height: 22px;
+    display: block;
+}
+
+
+.logo4 {
+    background-image: url("../img/cooper_logo.png");
+    width: 62px;
+    height: 25px;
+    display: block;
+}
+
+.logo5 {
+    background-image: url("../img/avon_logo.png");
+    width: 79px;
+    height: 15px;
+    display: block;
+}
+
+.logo6 {
+    background-image: url("../img/tire_factory.png");
+    width: 60px;
+    height: 30px;
+    display: block;
+}
+
+.logo7 {
+    background-image: url("../img/pirelli_logo.png");
+    width: 66px;
+    height: 19px;
+    display: block;
+}
+
+.logo8 {
+    background-image: url("../img/dunlop_logo.png");
+    width: 77px;
+    height: 19px;
+    display: block;
+}
+/* end brand logo */
+
+
 
 
 /* footer */
@@ -439,7 +520,7 @@ footer {
 
 
 footer ul {
-    margin: 13px 0 0 0;
+    margin: 0;
     padding: 0;
 
 }
