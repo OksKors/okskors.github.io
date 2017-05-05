@@ -638,4 +638,522 @@ body {
     /* END footer */
 }
 
+@media screen and (min-width: 480px) {
+    header {
+        background-image: url("../img/background_768.png");
+    }
+
+    .content-header {
+        position: relative;
+    }
+
+    .slider-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 20rem;
+        max-width: 120rem;
+        background: rgba(0,0,0,0.3);
+        margin-top: 95px;
+    }
+
+    .slider-container__slider {
+        display: flex;
+        justify-content: space-between;
+        width: 84%;
+        max-width: 60rem;
+
+    }
+
+    .slider__slider_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .slider__img_container {
+        display: block;
+        width: 44%;
+    }
+
+    .slider__iphones-img {
+        display: block;
+        max-width: 100%;
+        margin-top: -10px;
+    }
+
+    .content-header__pagination {
+        margin: 20px 0 60px 0;
+    }
+
+    .about_company_content__article {
+        width: 88%;
+    }
+
+
+    .updates_comments__updates {
+        width: 66%;
+    }
+
+    .comments_title {
+        white-space: normal;
+    }
+
+    .comments__content {
+        margin-top: 20px;
+    }
+
+    .pagination--comments {
+        margin: 20px 0 0 0;
+    }
+
+    .news_container {
+        background: #ececec;
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+    }
+
+    .news_container__news_content {
+        margin: 0 0 30px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 60rem;
+    }
+
+    .news_content__copyright,
+    .news_content__news--comments {
+        display: none;
+    }
+
+    .news_content__news {
+        width: 91%;
+        margin-bottom: 55px;
+    }
+
+    .news__content {
+        line-height: 22px;
+        overflow: hidden;
+        height: 91px;
+        font-size: 16px;
+        font-family: 'Open Sans', Serif, sans-serif;
+        font-weight: 100;
+        color: #787878;
+        margin: 6px 0 0 0;
+    }
+
+    .news__title {
+        margin: 0;
+        font-size: 24px;
+        color: #454545;
+        font-weight: normal;
+    }
+
+    .brands_logo_container li {
+        width: 33%;
+
+    }
+
+
+    footer {
+        background: url("../img/background_footer_768.png");
+    }
+
+    .footer__content {
+        padding-bottom: 64px;
+    }
+
+
+    .content-header__main-menu--menu_footer {
+        display: inline-block;
+        position: static;
+        margin: 0 0 35px 0;
+    }
+
+    .content-header__main-menu--menu_footer li {
+        background: none;
+        width: auto;
+        margin: 0 20px 0 0;
+        height: auto;
+        display: inline-block;
+
+    }
+
+    .content-header__main-menu--menu_footer li:first-child a{
+        border: none;
+        margin: 0;
+        width: auto;
+    }
+
+    .content-header__main-menu--menu_footer a {
+        padding: 0;
+        height: auto;
+
+    }
+
+
+    .content-header__main-menu--menu_footer li:hover {
+        background: none;
+        width: auto;
+        border: none;
+
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    header {
+        background: url("../img/background_960.jpg") center top;
+    }
+
+    .content-header {
+        width: 48rem;
+        align-items: flex-start;
+
+    }
+
+    .content-header__main_logo {
+        margin: 0 0 0 20px;
+
+    }
+
+    .main_menu__submenu {
+        visibility: visible;
+    }
+
+    .content-header__main-menu {
+        position: static;
+        margin: 35px 0 0 20px;
+        text-shadow: rgb(74, 74, 74) 0 1px 2px;
+
+    }
+
+    .main_menu__submenu {
+        left: 100px;
+        bottom: 0;
+    }
+
+    .main_menu__submenu li {
+        display: inline-block;
+    }
+
+    .content-header__main-menu li {
+        background: none;
+        width: auto;
+        margin: 0 48px 0 0;
+        height: 30px;
+
+    }
+
+    .content-header__main-menu li:first-child a {
+        border: none;
+        margin: 0;
+        width: auto;
+    }
+
+    .content-header__main-menu li:first-child a:hover {
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .content-header__main-menu a {
+        padding: 0;
+        height: auto;
+        font-size: 24px;
+    }
+
+    .content-header__main-menu a:hover {
+        border-bottom: 2px solid #edbfff;
+
+    }
+
+    .content-header__main-menu li:hover {
+        background: none;
+        width: auto;
+        border: none;
+
+    }
+
+    .slider-container {
+        margin: 75px 0 150px 0;
+
+    }
+
+    .slider-container__slider {
+        width: 90%;
+        justify-content: space-between;
+
+    }
+
+    .slider__slider_text {
+        width: 39%;
+    }
+
+    .slider_content {
+        display: block;
+        color: white;
+        font-size: 16px;
+        font-weight: 100;
+        font-family: 'Open Sans', Serif, sans-serif;
+        height: 90px;
+        overflow: hidden;
+        line-height: 22px;
+    }
+
+    .slider__title {
+        font-size: 42px;
+
+    }
+
+    .slider__subtitle {
+        font-size: 24px;
+    }
+
+    .slider__img_container {
+        width: 38%;
+    }
+
+    .slider__iphones-img {
+        margin: -20px 0 50px 0;
+    }
+
+    .content-header__pagination {
+        position: relative;
+        bottom: 119px;
+        left: 208px;
+        margin: 0;
+    }
+
+    .about_company_container__about_company_content {
+        justify-content: space-around;
+    }
+
+    .about_company_content__article {
+        width: 27%;
+        margin: 0 0 65px 0;
+    }
+
+    .article__content {
+        height: 130px;
+        margin: 10px 0 9px 46px;
+
+    }
+
+    .updates_comments_container {
+        padding: 0;
+    }
+
+    .pagination--comments {
+        position: static;
+        margin-top: 21px;
+
+    }
+
+
+
+    .updates_comments__comments {
+        width: 43%;
+        margin: 0 0 70px 0;
+    }
+
+    .updates_comments__updates {
+        width: 42%;
+        margin-top: 25px;
+    }
+
+    .updates_comments_container__updates_comments {
+        justify-content: space-around;
+        padding-top: 100px;
+    }
+
+    .brands_logo_container {
+        padding: 0;
+    }
+
+    .brands_logo_container__brands_logo {
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .brands_logo_container__brands_logo li {
+        margin: 25px 0;
+        width: auto;
+    }
+
+    .news_container__news_content {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .news_content__news {
+        width: 26%;
+    }
+
+    .news__content {
+        height: 155px;
+    }
+
+    footer {
+        background-image: url("../img/background_footer_960.png");
+        text-align: start;
+    }
+
+    .footer__content {
+        padding: 40px 20px 130px 20px;
+
+    }
+
+    .content-header__main-menu--menu_footer {
+        margin: 0;
+    }
+
+    .content-header__main-menu--menu_footer a {
+        font-size: 20px;
+    }
+
+    .footer__designed_by {
+        float: right;
+        margin-top: 48px;
+    }
+
+}
+
+
+@media screen and (min-width: 960px){
+
+
+        header {
+            padding-top: 65px;
+        }
+       
+
+       .content-header {
+          width: 60rem;
+          flex-direction: row;
+          align-items: center;
+      }
+
+       .content-header__main_logo {
+           margin: 0;
+
+       }
+
+       .content-header__main-menu {
+           margin: 0 0 0 188px;
+       }
+
+       .main_menu__submenu {
+           left: 420px;
+           bottom: 3px;
+
+       }
+
+       .content-header__main-menu li:last-child {
+           margin: 0;
+       }
+
+       .slider-container {
+           margin-top: 170px;
+
+       }
+
+       .slider-container__slider {
+           width: 100%;
+       }
+
+       .slider__slider_text {
+           width: 52%;
+       }
+
+       .slider__title {
+           font-size: 60px;
+       }
+
+       .slider__subtitle {
+           font-size: 32px;
+       }
+
+       .slider_content {
+           font-size: 18px;
+           height: 132px;
+       }
+
+       .content-header__pagination {
+           bottom: 58px;
+           left: 274px;
+       }
+
+        .slider__img_container {
+            width: 34%;
+        }
+
+
+       .news_content__news--first {
+           display: none;
+       }
+
+       .news_content__copyright {
+           display: block;
+           width: 26%;
+           margin-bottom: 55px;
+
+       }
+
+       .copyright__content {
+           height: 106px;
+           line-height: 22px;
+           overflow: hidden;
+           font-size: 16px;
+           font-family: 'Open Sans', Serif, sans-serif;
+           font-weight: 100;
+           color: #787878;
+           margin: 6px 0 0 0;
+       }
+
+       .copyright__copyright {
+           margin: 0;
+           font-size: 16px;
+           color: #c5c5c5;
+           font-style: italic;
+           font-family: Georgia, sans-serif, Serif
+       }
+
+       .copyright__title {
+           font-size: 48px;
+           margin: 0 0 0 0;
+           font-weight: lighter;
+           word-spacing: -.15em;
+           color: #454545;
+       }
+
+       .logo_ER_grey {
+           color: #b9b9b9;
+       }
+
+       footer {
+           background: url("../img/background_footer_1920.png") center;
+           display: flex;
+           justify-content: center;
+       }
+
+       .footer__content {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           width: 60rem;
+           padding:43px 2px 30px 2px;
+
+       }
+
+       .content-header__main-menu--menu_footer {
+           margin: 0;
+       }
+
+       .footer__designed_by {
+           margin: 0;
+       }
 
