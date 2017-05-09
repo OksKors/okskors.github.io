@@ -165,7 +165,7 @@ body {
     }
 
     .content-header__pagination a {
-        /*display: block;*/
+        display: block;
         height: 17px;
         width: 17px;
         background: rgba(0,0,0,0.3);
@@ -938,7 +938,6 @@ body {
     .article__content {
         height: 130px;
         margin: 10px 0 9px 46px;
-
     }
 
     .updates_comments_container {
@@ -950,8 +949,6 @@ body {
         margin-top: 21px;
 
     }
-
-
 
     .updates_comments__comments {
         width: 43%;
